@@ -15,8 +15,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Belleza&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap');
 body{
-background-image:url("https://images.unsplash.com/photo-1543269865-0a740d43b90c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
-background-size:1368px 700px;
+background:url("https://images.unsplash.com/photo-1543269865-0a740d43b90c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80") no-repeat center fixed;
+background-size:cover;
+background-repeat:no-repeat;
+width:100%;
+height:auto;
 }
 p{
 font-size:40px;
