@@ -13,7 +13,7 @@ if(isset($_POST['submit']))
 			$query2="update user set total = ccredit + credit ";
 			$query3=mysqli_query($query2,'connect.php')or die("Could Not Perform the Query3");
 		?>
-			<script language="javascript"> alert("Amount Credited successfully "); </script>
+			<script language="javascript"> alert("Money has been transferred"); </script>
 		<?php			
 		echo"<script>window.location='list.php'</script>";
 		
